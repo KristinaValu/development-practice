@@ -1,7 +1,10 @@
 console.log(
+
+
   4,
 
-  "7th line",
+
+"7th line",
 
   true
 );
