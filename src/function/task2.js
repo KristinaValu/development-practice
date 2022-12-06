@@ -4,7 +4,7 @@ function string(text) {
     if (i % 2 === 0) {
       word += text.charAt(i).toUpperCase();
     } else {
-      word += text.charAt(i);
+      word += text.charAt(i).toLowerCase();
     }
   }
   return word;
