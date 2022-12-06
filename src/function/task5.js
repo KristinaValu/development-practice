@@ -1,7 +1,6 @@
 const fn = function (a) {
-  let b = arguments[0];
   const second = function () {
-    return b;
+    return a;
   };
   return second;
 };
