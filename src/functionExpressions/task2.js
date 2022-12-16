@@ -1,4 +1,4 @@
-let print = (a = "None was passed") => console.log(a);
+const print = (a = "None was passed") => console.log(a);
 
 print();
 print(null);

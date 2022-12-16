@@ -5,7 +5,7 @@ let fn = (...args) => {
       total++;
     }
   }
-  return console.log(total);
+  return total;
 };
 
 fn("dev Mentor", "devMentor", " ");
