@@ -6,14 +6,10 @@ const human = {
 };
 
 const func = (human) => {
-  if (human.isDeveloper === false) {
-    return console.log(
-      `${human.firstName} ${human.lastName} (${human.age}) is not a developer.`
-    );
+  if (!human.isDeveloper) {
+    return `${human.firstName} ${human.lastName} (${human.age}) is not a developer.`;
   } else {
-    return console.log(
-      `${human.firstName} ${human.lastName} (${human.age}) is a developer.`
-    );
+    return `${human.firstName} ${human.lastName} (${human.age}) is a developer.`;
   }
 };
 

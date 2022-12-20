@@ -3,7 +3,7 @@ const complexObject = {};
 complexObject.person = {
   name: "Dzon",
   email: "email@email.com",
-  birthDate: 1998 - 09 - 09,
+  birthDate: new Date("1998- 09- 09"),
 };
 
 complexObject["academy"] = {
@@ -15,3 +15,4 @@ const print = (complexObject) => {
   console.log(`${complexObject.person.name} - ${complexObject.academy.title}`);
 };
 print(complexObject);
+console.log(complexObject.person);
