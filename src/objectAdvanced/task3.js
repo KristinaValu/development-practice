@@ -10,8 +10,5 @@ const objectB = {
   number4: 44,
 };
 
-const func = (objectA, objectB) => {
-  const obj = { ...objectA, ...objectB };
-  return obj;
-};
+const func = (objectA, objectB) => obj = { ...objectA, ...objectB };
 console.log(func(objectA, objectB));
