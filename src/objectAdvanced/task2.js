@@ -1,4 +1,4 @@
-const func = ({ title }) => console.log(`${title}`);
+const func = ({ title }) => console.log(title);
 
 const book = {
   title: "OneDay",
