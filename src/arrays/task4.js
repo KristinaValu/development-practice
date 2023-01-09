@@ -1,7 +1,5 @@
 const average = (arr) => {
-  const total = arr.reduce((currentTotal, item) => {
-    return item + currentTotal;
-  }, 0);
+  const total = arr.reduce((currentTotal, item) => item + currentTotal);
   const average1 = total / arr.length;
   return average1;
 };
