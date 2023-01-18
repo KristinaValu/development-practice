@@ -6,7 +6,7 @@ const array = [
 ];
 
 const functionAdult = (array) => {
-  let newArray = array.filter((item) => item.age >= 18);
+  const newArray = array.filter((item) => item.age >= 18);
   return newArray.map((item) => item.name);
 };
 console.log(functionAdult(array));

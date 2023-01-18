@@ -4,10 +4,10 @@ const first = [
   { id: 5 },
 ];
 
-let second = { id: 3 };
+const second = { id: 3 };
 
 const func = (first, second) => {
-  let indexValue = first.findIndex((item) => item.id === second.id);
+  const indexValue = first.findIndex((item) => item.id === second.id);
   if (indexValue === -1) {
     first.push(second);
   } else {
