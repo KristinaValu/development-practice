@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node --es-module-specifier-resolution=node",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "npx tsc"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/KristinaValu/development-practice/issues"
   },
-  "homepage": "https://github.com/KristinaValu/development-practice#readme"
+  "homepage": "https://github.com/KristinaValu/development-practice#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
 }
