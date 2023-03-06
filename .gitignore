@@ -3,11 +3,11 @@ dist/
 
 # Log files
 
-\*.log
+*.log
 
 # Dotenv files
 
-.env\*
+.env*
 
 # VSCode IDE
 
