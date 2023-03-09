@@ -1,0 +1,15 @@
+const variableNumber: number = 77;
+let variableString: string = "Hello";
+let unknownVariable: unknown = 1;
+let anyVariable: any = { x: 55 };
+console.log(variableNumber);
+console.log(variableString);
+console.log(unknownVariable);
+console.log(anyVariable);
+variableString = "tryToChange";
+unknownVariable = "true";
+anyVariable = 99;
+console.log(variableNumber);
+console.log(variableString);
+console.log(unknownVariable);
+console.log(anyVariable);
