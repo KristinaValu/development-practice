@@ -1,4 +1,4 @@
-function countUppercase(argument?: string | null) {
+function countUppercase(argument?: string): number | null {
   let letArray: string[] = [];
   if (typeof argument === "string") {
     const strToArr = argument.split("");
@@ -13,4 +13,4 @@ function countUppercase(argument?: string | null) {
   }
 }
 
-console.log(countUppercase("deVmentor"));
+console.log(countUppercase("devMentor"));
