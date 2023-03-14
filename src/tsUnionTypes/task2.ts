@@ -1,13 +1,7 @@
 function countUppercase(argument?: string): number | null {
-  let letArray: string[] = [];
-  if (typeof argument === "string") {
-    const strToArr = argument.split("");
-    strToArr.forEach((letter) => {
-      if (letter === letter.toLocaleUpperCase()) {
-        letArray.push(letter);
-      }
-    });
-    return letArray.length;
+  if (argument) {
+    const letter = argument.split("").filter((char) => char.match(/[A-Z]/));
+    return letter.length;
   } else {
     return null;
   }
