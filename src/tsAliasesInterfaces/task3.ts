@@ -32,7 +32,7 @@ const recipesArray: Recipe[] = [
   },
 ];
 
-function longRecipe(recipesArray: Recipe[]): Recipe {
+function longestRecipe(recipesArray: Recipe[]): Recipe {
   const receptas = recipesArray.reduce((prev, current) => {
     return current.ingredients.length < prev.ingredients.length
       ? prev
@@ -40,4 +40,4 @@ function longRecipe(recipesArray: Recipe[]): Recipe {
   });
   return receptas;
 }
-console.log(longRecipe(recipesArray));
+console.log(longestRecipe(recipesArray));
